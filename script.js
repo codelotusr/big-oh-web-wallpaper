@@ -275,85 +275,81 @@ var cheatsheets = [
     <table>
         <thead>
             <tr>
-                <th>Sorting Algorithms</th>
-                <th colspan="8">Time Complexity</th>
-                <th>Space Complexity</th>
+                <th>Algorithm</th>
+                <th>Data Structure</th>
+                <th colspan="3">Time Complexity</th>
+                <th>Auxiliary Space Complexity</th>
             </tr>
-            <tr>
                 <th></th>
-                <th colspan="4">Average</th>
-                <th colspan="4">Worst</th>
+                <th></th>
+                <th>Best</th>
+                <th>Average</th>
+                <th>Worst</th>
                 <th>Worst</th>
             </tr>
             <tr>
-                <th></th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th></th>
-            </tr>
-        </thead>
-    `,
-	`
-    <h2>Sorting Algorithms</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Sorting Algorithms</th>
-                <th colspan="8">Time Complexity</th>
-                <th>Space Complexity</th>
+                <td>Quicksort</td>
+                <td>Array of n elements</td>
+                <td class="bad">Ω(n log n)</td>
+                <td class="bad">Θ(n log n)</td>
+                <td class="horrible">O(n^2)</td>
+                <td class="good">O(log n)</td>
             </tr>
             <tr>
-                <th></th>
-                <th colspan="4">Average</th>
-                <th colspan="4">Worst</th>
-                <th>Worst</th>
+                <td>Mergesort</td>
+                <td>Array of n elements</td>
+                <td class="bad">Ω(n log n)</td>
+                <td class="bad">Θ(n log n)</td>
+                <td class="bad">O(n log n)</td>
+                <td class="fair">O(n)</td>
             </tr>
             <tr>
-                <th></th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th></th>
-            </tr>
-        </thead>
-    `,
-	`
-    <h2>Sorting Algorithms</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Sorting Algorithms</th>
-                <th colspan="8">Time Complexity</th>
-                <th>Space Complexity</th>
+                <td>Heapsort</td>
+                <td>Array of n elements</td>
+                <td class="bad">Ω(n log n)</td>
+                <td class="bad">Θ(n log n)</td>
+                <td class="bad">O(n log n)</td>
+                <td class="excellent">O(1)</td>
             </tr>
             <tr>
-                <th></th>
-                <th colspan="4">Average</th>
-                <th colspan="4">Worst</th>
-                <th>Worst</th>
+                <td>Bubble Sort</td>
+                <td>Array of n elements</td>
+                <td class="good">Ω(n)</td>
+                <td class="horrible">Θ(n^2)</td>
+                <td class="horrible">O(n^2)</td>
+                <td class="excellent">O(1)</td>
             </tr>
             <tr>
-                <th></th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th></th>
+                <td>Insertion Sort</td>
+                <td>Array of n elements</td>
+                <td class="good">Ω(n)</td>
+                <td class="horrible">Θ(n^2)</td>
+                <td class="horrible">O(n^2)</td>
+                <td class="excellent">O(1)</td>
+            </tr>
+            <tr>
+                <td>Selection Sort</td>
+                <td>Array of n elements</td>
+                <td class="horrible">Ω(n^2)</td>
+                <td class="horrible">Θ(n^2)</td>
+                <td class="horrible">O(n^2)</td>
+                <td class="excellent">O(1)</td>
+            </tr>
+            <tr>
+                <td>Bucket Sort</td>
+                <td>Array of n elements</td>
+                <td class="fair">Ω(n + k)</td>
+                <td class="fair">Θ(n + k)</td>
+                <td class="horrible">O(n^2)</td>
+                <td class="fair">O(n + k)</td>
+            </tr>
+            <tr>
+                <td>Radix Sort</td>
+                <td>Array of n elements</td>
+                <td class="fair">Ω(nk)</td>
+                <td class="fair">Θ(nk)</td>
+                <td class="fair">O(nk)</td>
+                <td class="fair">O(n + k)</td>
             </tr>
         </thead>
     `,
