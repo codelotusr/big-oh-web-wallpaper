@@ -196,39 +196,79 @@ var cheatsheets = [
                 <td class="fair">O(n)</td>
                 <td class="fair">O(n)</td>
             </tr>
-
-
         </tbody>
     </table>
     `,
 	`
-    <h2>Sorting Algorithms</h2>
+    <h2>Searching Algorithms</h2>
     <table>
         <thead>
             <tr>
-                <th>Sorting Algorithms</th>
-                <th colspan="8">Time Complexity</th>
+                <th>Algorithm</th>
+                <th>Data Structure</th>
+                <th colspan="2">Time Complexity</th>
                 <th>Space Complexity</th>
             </tr>
             <tr>
                 <th></th>
-                <th colspan="4">Average</th>
-                <th colspan="4">Worst</th>
+                <th></th>
+                <th>Average</th>
+                <th>Worst</th>
                 <th>Worst</th>
             </tr>
-            <tr>
-                <th></th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th>Indexing</th>
-                <th>Search</th>
-                <th>Insertion</th>
-                <th>Deletion</th>
-                <th></th>
-            </tr>
         </thead>
+        <tbody>
+            <tr>
+                <td>Depth First Search (DFS)</td>
+                <td>Graph of |V| vertices and |E| edges</td>
+                <td class="good">Θ(|V| + |E|)</td>
+                <td class="good">O(|V| + |E|)</td>
+                <td class="good">O(|V|)</td>
+            </tr>
+            <tr>
+                <td>Breadth First Search (BFS)</td>
+                <td>Graph of |V| vertices and |E| edges</td>
+                <td class="good">Θ(|V| + |E|)</td>
+                <td class="good">O(|V| + |E|)</td>
+                <td class="good">O(|V|)</td>
+            </tr>
+            <tr>
+                <td>Binary Search</td>
+                <td>Sorted array of n elements</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="excellent">O(1)</td>
+            </tr>
+            <tr>
+                <td>Linear Search (Brute Force)</td>
+                <td>Array of n elements</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="excellent">O(1)</td>
+            </tr>
+            <tr>
+                <td class="wrap-text">Shortest path by Dijkstra,<br/>using a Min-heap as priority queue</td>
+                <td>Graph of |V| vertices and |E| edges</td>
+                <td class="good">Θ((|V| + |E|) log |V|)</td>
+                <td class="good">O((|V| + |E|) log |V|)</td>
+                <td class="good">O(|V|)</td>
+            </tr>
+            <tr>
+                <td class="wrap-text">Shortest path by Dijkstra,<br/>using an unsorted array as priority queue</td>
+                <td>Graph of |V| vertices and |E| edges</td>
+                <td class="fair">Θ(|V|^2)</td>
+                <td class="fair">O(|V|^2)</td>
+                <td class="good">O(|V|)</td>
+            </tr>
+            <tr>
+                <td>Shortest path by Bellman-Ford</td>
+                <td>Graph of |V| vertices and |E| edges</td>
+                <td class="fair">Θ(|V| |E|)</td>
+                <td class="fair">O(|V| |E|)</td>
+                <td class="good">O(|V|)</td>
+            </tr>
+        </tbody>
+    </table>
     `,
 	`
     <h2>Sorting Algorithms</h2>
