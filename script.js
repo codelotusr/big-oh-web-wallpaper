@@ -30,75 +30,75 @@ var cheatsheets = [
         <tbody>
             <tr>
                 <td>Array</td>
-                <td class="green">O(1)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="green">O(1)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
+                <td class="excellent">Θ(1)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="excellent">O(1)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
             </tr>
             <tr>
                 <td>Stack</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="green">O(1)</td>
-                <td class="green">O(1)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="green">O(1)</td>
-                <td class="green">O(1)</td>
-                <td class="yellow">O(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="excellent">Θ(1)</td>
+                <td class="excellent">Θ(1)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+                <td class="fair">O(n)</td>
             </tr>
             <tr>
                 <td>Queue</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="green">O(1)</td>
-                <td class="green">O(1)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="green">O(1)</td>
-                <td class="green">O(1)</td>
-                <td class="yellow">O(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="excellent">Θ(1)</td>
+                <td class="excellent">Θ(1)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+                <td class="fair">O(n)</td>
             </tr>
             <tr>
                 <td>Singly-Linked List</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
             </tr>
             <tr>
                 <td>Doubly-Linked List</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">Θ(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
             </tr>
             <tr>
                 <td>Hash Table</td>
                 <td>-</td>
-                <td class="green">O(1)</td>
-                <td class="green">O(1)</td>
-                <td class="green">O(1)</td>
+                <td class="excellent">Θ(1)</td>
+                <td class="excellent">Θ(1)</td>
+                <td class="excellent">Θ(1)</td>
                 <td>-</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
-                <td class="yellow">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
             </tr>
 
 

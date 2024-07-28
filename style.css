@@ -58,20 +58,24 @@ td {
 	text-align: center;
 }
 
-.green {
-	color: rgb(31, 235, 31);
+.excellent {
+	color: #53d000;
 }
 
-.red {
-	color: rgb(249, 51, 51);
+.good {
+	color: #c8ea00;
 }
 
-.yellow {
-	color: yellow;
+.fair {
+	color: #ffff00;
 }
 
-.orange {
-	color: orange;
+.bad {
+	color: #ffc543;
+}
+
+.horrible {
+	color: #ff8989;
 }
 
 .link {
