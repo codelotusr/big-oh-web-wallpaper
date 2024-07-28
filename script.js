@@ -353,6 +353,60 @@ var cheatsheets = [
             </tr>
         </thead>
     `,
+	`
+    <h2>Graphs</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Node / Edge Management</th>
+                <th>Storage</th>
+                <th>Add Vertex</th>
+                <th>Add Edge</th>
+                <th>Remove Vertex</th>
+                <th>Remove Edge</th>
+                <th>Query</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adjacency List</td>
+                <td class="fair">O(|V| + |E|)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+                <td class="fair">O(|V| + |E|)</td>
+                <td class="good">O(|E|)</td>
+                <td class="good">O(|V|)</td>
+            </tr>
+            <tr>
+                <td>Incidence List</td>
+                <td class="fair">O(|V| + |E|)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+                <td class="good">O(|E|)</td>
+                <td class="good">O(|E|)</td>
+                <td class="good">O(|E|)</td>
+            </tr>
+            <tr>
+                <td>Adjacency Matrix</td>
+                <td class="horrible">O(|V|^2)</td>
+                <td class="horrible">O(|V|^2)</td>
+                <td class="excellent">O(1)</td>
+                <td class="horrible">O(|V|^2)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td> 
+            </tr>
+            <tr>
+                <td>Incidence Matrix</td>
+                <td class="horrible">O(|V| * |E|)</td>
+                <td class="horrible">O(|E|)</td>
+                <td class="good">O(1)</td>
+                <td class="horrible">O(|V| * |E|)</td>
+                <td class="good">O(|E|)</td>
+                <td class="good">O(|E|)</td>
+            </tr>
+        </tbody>
+    </table>
+    `,
 ];
 
 var currentIndex = 0;
