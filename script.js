@@ -89,12 +89,108 @@ var cheatsheets = [
                 <td class="fair">O(n)</td>
             </tr>
             <tr>
+                <td>Skip List</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="bad">O(n log(n))</td>
+            </tr>
+            <tr>
                 <td>Hash Table</td>
                 <td>-</td>
                 <td class="excellent">Θ(1)</td>
                 <td class="excellent">Θ(1)</td>
                 <td class="excellent">Θ(1)</td>
                 <td>-</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+            </tr>
+            <tr>
+                <td>Binary Search Tree</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+            </tr>
+            <tr>
+                <td>Cartesian Tree</td>
+                <td>-</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td>-</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+            </tr>
+            <tr>
+                <td>B-Tree</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="fair">O(n)</td>
+            </tr>
+            <tr>
+                <td>AVL Tree</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">O(log n)</td>  
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="fair">O(n)</td>
+            </tr>
+            <tr>
+                <td>Red-Black Tree</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="fair">O(n)</td>
+            </tr>
+            <tr>
+                <td>Splay Tree</td>
+                <td>-</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td>-</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="fair">O(n)</td>
+            </tr>
+            <tr>
+                <td>KD Tree</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="good">Θ(log n)</td>
+                <td class="fair">O(n)</td>
                 <td class="fair">O(n)</td>
                 <td class="fair">O(n)</td>
                 <td class="fair">O(n)</td>
@@ -245,7 +341,7 @@ function updateClock() {
 	var day = String(now.getDate()).padStart(2, "0");
 	var month = String(now.getMonth() + 1).padStart(2, "0");
 	var year = now.getFullYear();
-	var formattedTime = `${hours}:${minutes}:${seconds} ${day}:${month}:${year}`;
+	var formattedTime = `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;
 	document.getElementById("clock").innerText = formattedTime;
 }
 
