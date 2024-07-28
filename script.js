@@ -287,6 +287,8 @@ var cheatsheets = [
                 <th>Worst</th>
                 <th>Worst</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>Quicksort</td>
                 <td>Array of n elements</td>
@@ -351,12 +353,16 @@ var cheatsheets = [
                 <td class="fair">O(nk)</td>
                 <td class="fair">O(n + k)</td>
             </tr>
-        </thead>
+        </tbody>
+    </table>
     `,
 	`
     <h2>Graphs</h2>
     <table>
         <thead>
+            <tr>
+                <th>Graph</th>
+                <th colspan="6">Time Complexity</th>
             <tr>
                 <th>Node / Edge Management</th>
                 <th>Storage</th>
@@ -403,6 +409,79 @@ var cheatsheets = [
                 <td class="horrible">O(|V| * |E|)</td>
                 <td class="good">O(|E|)</td>
                 <td class="good">O(|E|)</td>
+            </tr>
+        </tbody>
+    </table>
+    `,
+	`
+    <h2>Heaps</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Heaps</th>
+                <th colspan="7">Time Complexity</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Heapify</th>
+                <th>Find Max</th>
+                <th>Extract Max</th>
+                <th>Increase Key</th>
+                <th>Insert</th>
+                <th>Delete</th>
+                <th>Merge</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Linked List (sorted)</td>
+                <td>-</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="excellent">O(1)</td>
+                <td class="fair">O(m + n)</td>
+            </tr>
+            <tr>
+                <td>Linked List (unsorted)</td>
+                <td>-</td>
+                <td class="fair">O(n)</td>
+                <td class="fair">O(n)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+                <td class="excellent">O(1)</td>
+            </tr>
+            <tr>
+                <td>Binary Heap</td>
+                <td class="fair">O(n)</td>
+                <td class="excellent">O(1)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="fair">O(n + m)</td>
+            </tr>
+            <tr>
+                <td>Binomial Heap</td>
+                <td>-</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+                <td class="good">O(log n)</td>
+            </tr>
+            <tr>
+                <td>Fibonacci Heap</td>
+                <td>-</td>
+                <td class="excellent">O(1)</td>
+                <td class="good">O(log n)*</td>
+                <td class="excellent">O(1)*</td>
+                <td class="excellent">O(1)</td>
+                <td class="good">O(log n)*</td>
+                <td class="excellent">O(1)</td>
             </tr>
         </tbody>
     </table>
